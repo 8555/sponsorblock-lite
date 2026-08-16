@@ -9,8 +9,7 @@ A minimal Violentmonkey userscript that auto-skips sponsor segments on YouTube u
 The official SponsorBlock browser extension is great, but it comes with a few things I didn't want:
 
 - It modifies YouTube's own UI in several places, and not all of that is possible to fully disable.
-- It ships extra theming/branding features (e.g. a "Pride" design toggle) that have nothing to do with skipping sponsor segments — I'd rather a browser extension stay focused on its core job.
-- I wanted something lightweight: a single userscript file, no bundled framework, configuration done directly in the script itself.
+- I wanted something lightweight: a single userscript file, configuration done directly in the script itself, no "Pride" design toggle.
 
 So this is a from-scratch reimplementation of just the part I actually use: fetching segment data and skipping/marking it, with essentially zero footprint on YouTube's native look and feel.
 
